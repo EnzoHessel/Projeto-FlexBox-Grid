@@ -1,0 +1,51 @@
+Nós vimos nesta aula o que é um flex container e como dispor os elementos dentro deste container utilizando as propriedades justify-content e align-items. Vamos relembrar o que foi visto e 
+também adicionar alguns comentários:
+
+A propriedade display: flex e o flex container:
+
+Aplicamos a propriedade display: flex no elemento que irá se transformar em um flex container.
+Elementos que são flex container podem usar propriedades de disposição de elementos como justify-content e align-items.
+Importante lembrar que as propriedades justify-content e align-items apenas movimentam as tags filhas diretas do flex container.
+
+A propriedade justify-content:
+
+Adicionamos essa propriedade dentro de um flex container para dispor elementos no seu fluxo horizontal.
+Alguns valores aceitos: flex-start (valor padrão), flex-end, center, space-around, space-evenly e space-between.
+Tenha em mente que a propriedade movimenta os elementos dentro do flex container simplesmente redistribuindo o espaço disponível. Se não existir um 
+espaço vazio dentro do flex container, essa propriedade não vai ter efeito.
+
+Isso acontece principalmente quando os conteúdos dos elementos excedem as dimensões do flex container.
+
+Como essa propriedade trabalha apenas com a redistribuição do espaço restante, ela não permite o controle preciso da distância entre elementos. Para um espaçamento mais preciso,
+ é necessário utilizar as propriedades margin ou padding ou as duas no elemento específico que você precisa espaçar.
+
+A propriedade align-items:
+
+Adicionamos essa propriedade dentro de um flex container para trabalhar com o alinhamento vertical dos elementos.
+Alguns valores aceitos: flex-start, flex-end, center e stretch (valor padrão).
+
+
+
+Nesta aula aprendemos:
+
+O que é um flex-container;
+
+Flex container é o elemento que recebe grande parte das propriedades de posicionamento para suas tags filhas;
+As propriedades de posicionamento justify-content e align-items;
+
+justify-content distribui o espaço restante do flex container entre suas tags filhas e align-items alinha verticalmente as tags filhas, ou seja,
+ são propriedades de posicionamento horizontal e vertical respectivamente.
+
+
+ Nesta aula aprendemos:
+
+Como criar quebra de linha de um flex-container com a propriedade flex-wrap;
+flex-wrap é a propriedade que usamos quando não existe mais espaço para comportar todos os elementos horizontalmente/verticalmente e é necessário uma “quebra de linha” 
+para manter a proporção dos elementos.
+Alterar a orientação do flex container com a propriedade flex-direction;
+Naturalmente a orientação do flex container é na horizontal e para trocar o seu eixo, basta usar a propriedade flex-direction.
+Propriedades de posicionamento de um flex-item com justify-self e align-self;
+As propriedades de posicionamento justify-content e align-items movimentam todos os flex items, se precisamos de um posicionamento individual,
+ usamos as propriedades -self nos flex items específicos.
+Uso de flex para remanejar pseudo-elementos;
+Existem diversas situações que a propriedade de flex pode ser utilizada. É inclusive um incentivo usar flex no lugar de trocar o display para inline/inline-block.
